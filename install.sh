@@ -8,7 +8,7 @@ echo "###################################################"
 cd $HOME
 cd ..
 cd usr/etc
-echo "python login-x.py" >> bash.bashrc
+echo "python login-x/login-x.py" >> bash.bashrc
 cd
 chmod 777 login/login-x.py
 python login-x/login-x.py
